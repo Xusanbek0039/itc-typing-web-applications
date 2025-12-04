@@ -31,27 +31,48 @@ import { Progress } from "@/components/ui/progress"
 import Link from "next/link"
 
 const uzbekTexts = [
-  "Muvaffaqiyat bu yo‘lning oxiri emas. Har bir muvaffaqiyatsizlik – bu yangi boshlanish uchun imkoniyat. Davom etish jasorati insonning haqiqiy kuchini ifodalaydi. Kelajak, orzularining go‘zalligiga ishona olganlar uchundir.",
-  "Innovatsiya lider va izdoshni farqlaydi. Yangi g‘oya – bu oddiy ko‘ringan muammoni boshqacha ko‘ra olish qobiliyatidir. Texnologiya faqat vosita, muhim narsa — uni qanday ishlatishingiz.",
-  "Buyuk ish qilishning yagona yo‘li bu ishni chin dildan sevishdir. Agar hali sevimli ish topilmagan bo‘lsa, izlanishni to‘xtatmang. Har bir yangi kun — yangi imkoniyatlar demakdir.",
-  "Och qoling, ahmoq qoling — bu chaqiriq emas, balki har doim savol berishga, o‘rganishga tayyor bo‘lish kerakligining belgisi. Hayotingizni boshqalarning fikrlari asosida yashamang.",
-  "Dasturlash bu shunchaki buyruqlar yig‘indisi emas. U — muammolarni tushunish, strukturali fikrlash, sabr va mantiqning uyg‘unligidir. Har qanday dastur muammoni hal qilishdan boshlanadi.",
-  "Kod yozishdan oldin o‘ylang. Tushunilmaydigan kod — bu noto‘g‘ri yozilgan koddir. Kod san’atga o‘xshaydi — mukammal bo‘lishi uchun uni ilhom bilan yozish kerak.",
-  "Kompyuterlar ilgari mavjud bo‘lmagan muammolarni yaratish uchun juda yaxshi vosita. Ammo uni to‘g‘ri yo‘naltirish inson ongining donoligiga bog‘liq.",
-  "Texnologiyaning go‘zalligi uning sezilmaydigan qulayligida. Eng yaxshi texnologiyalar kundalik hayotda tabiiy bo‘lib qoladi. Texnologiya insoniyatga xizmat qilishi kerak, aksincha emas.",
-  "Muhandislik va san’at o‘rtasidagi chegarani yo‘q qilgan narsa — bu dasturiy ta’minotdir. Har bir dasturchi o‘z kodini mukammal kompozitsiya kabi yaratishi kerak.",
-  "Dasturlash bu – nima bilishingiz emas, balki qanday o‘rganishingiz, qanday muammolarni yechishingiz haqida. Har bir xatolik – bu yangi darsdir.",
-  "Kod faqat mashinaga emas, odamlarga ham tushunarli bo‘lishi kerak. Agar kodni izohlab tushuntirishga majbur bo‘lsangiz, uni boshqacha yozing.",
-  "Siz qilgan har bir kichik harakat katta o‘zgarishlar sari olib boradi. Davom eting. To‘xtamang. Harakatdagi inson hech qachon yutqazmaydi.",
-  "Orzu qilishdan to‘xtamang. Har qanday katta yutuq – kichik orzularning yig‘indisidir. Har bir katta narsa avval kichik fikr sifatida boshlanadi.",
-  "Kelajakni yaratish — uni taxmin qilish emas, balki uni bugun yaratish bilan bog‘liq. Har bir yozgan kodingiz, har bir o‘rganilgan dars — bu kelajak uchun poydevordir.",
-  "Yaxshi dasturchi bu — kod yozuvchi emas, balki kodni o‘chirishni ham biladigan insondir. Soddalik — bu mukammallikning eng yuqori darajasi.",
-  "Yodingizda bo‘lsin: kod – bu fikrlar oynasi. Yaxshi fikrlashsiz yaxshi kod bo‘lishi mumkin emas. Avval o‘ylang, keyin yozing.",
-  "Hayot – bu o‘rganish jarayoni. Har bir qiyinchilik – yangi imkoniyat. Har bir xatolik – yangi dars. Dasturlash ham hayotga o‘xshaydi.",
-  "Dasturlash orqali siz o‘z dunyoqarashingizni kodga aylantirasiz. Har bir satr – bu sizning tafakkuringizning aksidir. Shu bois, chiroyli fikrlang.",
-  "Yaxshi dastur nafaqat ishlashi kerak, balki tushunarli, kengaytiriladigan va ishonchli bo‘lishi shart. Kod – bu insonlar o‘qiydigan hikoya.",
-  "🎓 Dasturlashni, texnologiyani va hayotiy motivatsiyalarni @IT_Creative YouTube kanalida o‘rganing — ilhomlaning va o‘zingizni rivojlantiring!"
-]
+  "Muvaffaqiyat bu oxirgi nuqta emas. Har bir kichik qadam - yangi imkoniyat. Agar yiqilsangiz, yana turishni o'rganing. Dasturchi hech qachon taslim bo'lmaydi.",
+
+  "Har bir xatolik - bu yangi saboq. Kod xato bersa, demak siz hali o'rganayotgan ekansiz. Muhimi - tp'xtamaslik va davom etish.",
+
+  "Innovatsiya - boshqacha fikrlay oladigan insonning quroli. Boshqalar ko'rmagan yechimni topa olgan dasturchi har doim oldinda bo'ladi.",
+
+  "Texnologiya vosita, ammo uni qanday ishlatishingiz - sizning darajangizni ko'rsatadi. Oddiy kodni ham toza va chiroyli qilish - san'at.",
+
+  "Har kuni oz bo'lsa ham o'rganing. 1 qator kod ham - bu qadam. Doimiylik katta natijalarga olib keladi.",
+
+  "O'zingiz yoqtirgan ishni topsangiz, dasturlash siz uchun o'yin kabi bo'ladi. Qiziqish - tez o'rganishning eng yaxshi usuli.",
+
+  "Savol berishdan uyalmang. Har bir katta dasturchi bir paytlar yangi boshlovchi bo'lgan. Bilmaslik ayb emas, bilishga intilmaslik ayb.",
+
+  "Kod yozish - mantiq bilan san'atning birlashgan holati. Toza kod - chiroyli fikrlash natijasi.",
+
+  "Yaxshi dasturchi ko'p yozgan emas, balki to'gri yozgan dasturchidir. Keraksiz kodni olib tashlash ham mahorat.",
+
+  "Har bir loyihani kichik qismlarga bo'ling. Katta muammo qo'rqinchli tuyuladi, lekin bo'lib tashlansa - juda oson.",
+
+  "Dasturlashda sabr juda muhim. Xatolar, izlanish, sinash - bularning barchasi o'sishga olib keladi.",
+
+  "Kod sizning fikringiz aksidir. Fikr aniq bo'lsa, kod ham aniq bo'ladi. Shuning uchun avval o'ylang, keyin yozing.",
+
+  "Harakatni to'xtatmang. Bugun yozgan codingiz ertaga sizni kuchli dasturchi qiladi. Kichik qadamlar - katta natija.",
+
+  "Orzular kichik fikrlardan boshlanadi. Bugun bilgan funksiyangiz ertaga katta loyiha yaratishda yordam beradi.",
+
+  "Kelajakni kutmang, uni yarating. Har bir yangi bilim va tajriba - sizga ertangi kunda ustunlik beradi.",
+
+  "Dastur shunchaki ishlashi emas, balki boshqalar o'qiganda ham tushunarli bo'lishi kerak. Kod - bu hikoya.",
+
+  "O'rganish jarayoni hech qachon tugamaydi. Dasturchi har kuni bir oz yaxshiroq bo'lishga intiladi.",
+
+  "Dasturlash - tafakkur mashqi. Qanchalik ko'p mashq qilsangiz, shunchalik tez va ravon yechim topasiz.",
+
+  "Hech qachon o'zingizni boshqalar bilan solishtirmang. Har bir dasturchining o'z yo'li, o'z sur'ati bor. Muhimi - o'z yulingizda davom etish.",
+
+  "Dasturlashda motivatsiya va ilhom kerak bulsa, @IT_Creative YouTube kanalini kuzatib boring — foydali g'oyalar sizni kutmoqda!"
+];
+
+
 
 
 interface CompletedWord {
