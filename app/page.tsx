@@ -33,7 +33,7 @@ import Link from "next/link"
 const uzbekTexts = [
   "Muvaffaqiyat bu oxirgi nuqta emas. Har bir kichik qadam - yangi imkoniyat. Agar yiqilsangiz, yana turishni o'rganing. Dasturchi hech qachon taslim bo'lmaydi.",
 
-  "Har bir xatolik - bu yangi saboq. Kod xato bersa, demak siz hali o'rganayotgan ekansiz. Muhimi - tp'xtamaslik va davom etish.",
+  "Har bir xatolik - bu yangi saboq. Kod xato bersa, demak siz hali o'rganayotgan ekansiz. Muhimi - to'xtamaslik va davom etish.",
 
   "Innovatsiya - boshqacha fikrlay oladigan insonning quroli. Boshqalar ko'rmagan yechimni topa olgan dasturchi har doim oldinda bo'ladi.",
 
