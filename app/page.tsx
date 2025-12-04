@@ -751,7 +751,7 @@ export default function TypingPracticeApp() {
                     muvaffaqiyat qozonish uchun zarur vositalar va mashq materiallarini taqdim etadi.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {["Yozish Mashqi", "IT Tayyorgarlik", "Ko'nikma Rivojlantirish", "Taraqqiyot Kuzatuvi"].map(
+                    {["Yozish Mashqi", "IT Tayyorgarlik", "Ko'nikma Rivojlantirish", "Taraqqiyot Kuzatuvi","IT Creative","IT Ijodkorlari"].map(
                       (badge, index) => (
                         <Badge
                           key={index}
