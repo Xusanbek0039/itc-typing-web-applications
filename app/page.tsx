@@ -32,43 +32,24 @@ import Link from "next/link"
 
 const uzbekTexts = [
   "Muvaffaqiyat bu oxirgi nuqta emas. Har bir kichik qadam - yangi imkoniyat. Agar yiqilsangiz, yana turishni o'rganing. Dasturchi hech qachon taslim bo'lmaydi.",
-
   "Har bir xatolik - bu yangi saboq. Kod xato bersa, demak siz hali o'rganayotgan ekansiz. Muhimi - to'xtamaslik va davom etish.",
-
   "Innovatsiya - boshqacha fikrlay oladigan insonning quroli. Boshqalar ko'rmagan yechimni topa olgan dasturchi har doim oldinda bo'ladi.",
-
   "Texnologiya vosita, ammo uni qanday ishlatishingiz - sizning darajangizni ko'rsatadi. Oddiy kodni ham toza va chiroyli qilish - san'at.",
-
   "Har kuni oz bo'lsa ham o'rganing. 1 qator kod ham - bu qadam. Doimiylik katta natijalarga olib keladi.",
-
   "O'zingiz yoqtirgan ishni topsangiz, dasturlash siz uchun o'yin kabi bo'ladi. Qiziqish - tez o'rganishning eng yaxshi usuli.",
-
   "Savol berishdan uyalmang. Har bir katta dasturchi bir paytlar yangi boshlovchi bo'lgan. Bilmaslik ayb emas, bilishga intilmaslik ayb.",
-
   "Kod yozish - mantiq bilan san'atning birlashgan holati. Toza kod - chiroyli fikrlash natijasi.",
-
   "Yaxshi dasturchi ko'p yozgan emas, balki to'gri yozgan dasturchidir. Keraksiz kodni olib tashlash ham mahorat.",
-
   "Har bir loyihani kichik qismlarga bo'ling. Katta muammo qo'rqinchli tuyuladi, lekin bo'lib tashlansa - juda oson.",
-
   "Dasturlashda sabr juda muhim. Xatolar, izlanish, sinash - bularning barchasi o'sishga olib keladi.",
-
   "Kod sizning fikringiz aksidir. Fikr aniq bo'lsa, kod ham aniq bo'ladi. Shuning uchun avval o'ylang, keyin yozing.",
-
   "Harakatni to'xtatmang. Bugun yozgan codingiz ertaga sizni kuchli dasturchi qiladi. Kichik qadamlar - katta natija.",
-
   "Orzular kichik fikrlardan boshlanadi. Bugun bilgan funksiyangiz ertaga katta loyiha yaratishda yordam beradi.",
-
   "Kelajakni kutmang, uni yarating. Har bir yangi bilim va tajriba - sizga ertangi kunda ustunlik beradi.",
-
   "Dastur shunchaki ishlashi emas, balki boshqalar o'qiganda ham tushunarli bo'lishi kerak. Kod - bu hikoya.",
-
   "O'rganish jarayoni hech qachon tugamaydi. Dasturchi har kuni bir oz yaxshiroq bo'lishga intiladi.",
-
   "Dasturlash - tafakkur mashqi. Qanchalik ko'p mashq qilsangiz, shunchalik tez va ravon yechim topasiz.",
-
   "Hech qachon o'zingizni boshqalar bilan solishtirmang. Har bir dasturchining o'z yo'li, o'z sur'ati bor. Muhimi - o'z yulingizda davom etish.",
-
   "Dasturlashda motivatsiya va ilhom kerak bulsa, IT Creative YouTube kanalini kuzatib boring — foydali g'oyalar sizni kutmoqda!"
 ];
 
