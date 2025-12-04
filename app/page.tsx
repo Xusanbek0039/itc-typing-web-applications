@@ -69,7 +69,7 @@ const uzbekTexts = [
 
   "Hech qachon o'zingizni boshqalar bilan solishtirmang. Har bir dasturchining o'z yo'li, o'z sur'ati bor. Muhimi - o'z yulingizda davom etish.",
 
-  "Dasturlashda motivatsiya va ilhom kerak bulsa, @IT_Creative YouTube kanalini kuzatib boring — foydali g'oyalar sizni kutmoqda!"
+  "Dasturlashda motivatsiya va ilhom kerak bulsa, IT Creative YouTube kanalini kuzatib boring — foydali g'oyalar sizni kutmoqda!"
 ];
 
 
